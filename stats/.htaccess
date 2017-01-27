@@ -1,0 +1,7 @@
+AuthName "intranet.uvt.ro statistics"
+AuthType Basic
+AuthUserFile /home/intranet/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>

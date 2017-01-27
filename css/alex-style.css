@@ -1,0 +1,176 @@
+.flag-icon-es {
+    background-image: url(img/es.svg);
+}
+
+.flag-icon-us {
+    background-image: url(img/us.svg);
+}
+
+.flag-icon-de {
+    background-image: url(img/de.svg);
+}
+
+
+
+
+.flag-icon {
+    position: relative;
+    display: inline-block;
+    width: 1.3333333333333333em;
+    line-height: 1em;
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.button {
+    background-color: #0073DD; /* #4CAF50 Green */
+    border: none;
+	border-radius: 20px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.divmail{
+	display: block;
+}
+
+.divdreamspark {
+	display: none;
+}
+
+
+.divanelis{
+	display: none;
+}
+.divstudentweb{
+	display: none;
+}
+.divelearning{
+	display: none;
+}
+.divph{
+	display: none;
+}
+.divlists{
+	display:none;
+}
+.divDCT{
+	display:none;
+}
+.divsugestii{
+	display:none;
+}
+.divinterioare{
+	display:none;
+}
+.divsite{
+	display:none;
+}
+.update{
+	display:none;
+}
+.tabel {
+	display:block;
+}
+
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+/* additional sections */
+#acasa {
+  background: url(/img/project-clipart-work-project-clip-art-1143610.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#lucrari {
+}
+
+#profil{
+
+  background-color: #306d9f;
+  /*color: #ffffff;*/
+}
+#ajutor .glyphicon {
+
+}
+
+#ajutor {
+  background: url(/img/web-design.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#information .panel {
+  opacity: 0.85;
+}
+
+#google_map {
+  height: 500px;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+#buton_tabel{
+	display:block;
+}
